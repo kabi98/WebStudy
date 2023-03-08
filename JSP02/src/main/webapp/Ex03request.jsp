@@ -40,13 +40,13 @@
 		
 	%>
 	
-	<h3> 이름 <%= strName %>	</h3>
-	<h3> java <%= strJava %>	</h3>
-	<h3> web <%= strWeb %>	</h3>
-	<h3> IOT <%= strIOT %>	</h3>
-	<h3> Android <%= strAndroid %>	</h3>
-	<h3> 평균 <%= iAvg %>	</h3>
-	<h3> 학점 <%= strGrade %>	</h3>
-
+		이름 <%= strName %> <br>
+		java <%= strJava %> <br>
+		web <%= strWeb %> <br>
+		IOT <%= strIOT %> <br>
+		Android <%= strAndroid %> <br>
+		평균 <%= iAvg %> <br>
+		<strong> 학점 <%= strGrade %> </strong> <br>
+	
 </body>
 </html>

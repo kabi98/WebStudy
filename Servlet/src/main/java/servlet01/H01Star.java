@@ -45,9 +45,6 @@ public class H01Star extends HttpServlet {
 		
 		out.print("</table>");
 		out.close();
-	
-	
-		
 		
 	}
 
