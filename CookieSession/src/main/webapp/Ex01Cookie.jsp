@@ -7,7 +7,6 @@
 <title> Ex01 Cookie JSP </title>
 </head>
 <body>
-
 	<%
 		request.setCharacterEncoding("UTF-8");
 		// 쿠키에 들어있는 데이터 꺼내오기.
@@ -17,13 +16,11 @@
 		// 쿠키는 한번에 모든 데이터를 전부 받아와야한다.!
 		// 	>> 필요한 데이터를 별도로 지정해서 따로 꺼내오는 작업이 필요하다.
 		Cookie[] cookies =  request.getCookies();
-		
 	%>
 	
-	<% 	for(int i=0; i<cookies.length; i++){
-		}
-	
-		%>	
+	<% 	for(int i=0; i<cookies.length; i++){	%>
+			
+	<% 	}%>		
 	
 	<%=cookies[0].getName() %>
 	<%=cookies[0].getValue() %>
