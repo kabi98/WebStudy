@@ -8,15 +8,12 @@
 </head>
 <body>
 
-	main
 	<%
 		String nickname = (String)session.getAttribute("nickname");	
 	%>
 	
 	<h3> <%=nickname %> 님 환영 합니다. </h3>
-	<a href="" >로그아웃</a>
+	<a href="logout" >로그아웃</a>
 	
-
-
 </body>
 </html>
